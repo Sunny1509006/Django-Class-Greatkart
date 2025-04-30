@@ -1,0 +1,56 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django-specific
+*.log
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+
+# Media files
+/media/
+
+# Static files (if you're using static files in production)
+static/
+
+# PyCharm and other IDE configurations
+.idea/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# mypy, pytype, and other static analysis tools
+.mypy_cache/
+.pytype/
+
+# Test and migration files
+*.bak
+*.swp
+*.swo
+*.swn
+*.log
